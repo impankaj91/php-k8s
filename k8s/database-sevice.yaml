@@ -5,7 +5,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    component: database
+    component: database # Map the label that you have created in database-service.yaml.
   ports:
     - port: 3306
       targetPort: 3306

@@ -6,10 +6,10 @@ metadata:
 
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteOnce # Read and Write both access.
   resources:
     requests:
-      storage: 2Gi
+      storage: 2Gi # Amount of storage.
   volumeMode: Filesystem
   # local:
   #   path: /home/pankaj/Projects/PHP-Docker/database-storage
